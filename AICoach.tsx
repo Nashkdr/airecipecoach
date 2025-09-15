@@ -1,8 +1,7 @@
-
 import React, { useState, useEffect, useRef } from 'react';
-import { startAiCoachChat } from '../services/geminiService';
-import type { ChatMessage } from '../types';
-import { ICONS } from '../constants';
+import { startAiCoachChat } from '../services/geminiService.ts';
+import type { ChatMessage } from '../types.ts';
+import { ICONS } from '../constants.tsx';
 import { Chat } from '@google/genai';
 
 const AICoach: React.FC = () => {
