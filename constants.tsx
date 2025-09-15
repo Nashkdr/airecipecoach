@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { DietGoal } from './types';
+import { DietGoal } from './types.ts';
 
 export const DIET_GOALS_OPTIONS: DietGoal[] = [
     DietGoal.WEIGHT_LOSS,
