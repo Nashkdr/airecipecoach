@@ -1,7 +1,6 @@
-
 import React from 'react';
-import type { UserProfile, MealPlan, DailyMealPlan, Meal } from '../types';
-import LoadingSpinner from './LoadingSpinner';
+import type { UserProfile, MealPlan, DailyMealPlan, Meal } from '../types.ts';
+import LoadingSpinner from './LoadingSpinner.tsx';
 
 interface MealPlannerProps {
     userProfile: UserProfile;
