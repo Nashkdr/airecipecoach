@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect, useMemo } from 'react';
-import type { MealPlan, ShoppingListItem } from '../types';
-import { ICONS } from '../constants';
+import type { MealPlan, ShoppingListItem } from '../types.ts';
+import { ICONS } from '../constants.tsx';
 
 interface ShoppingListProps {
     mealPlan: MealPlan | null;
