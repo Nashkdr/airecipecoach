@@ -1,17 +1,16 @@
-
 import React, { useState, useEffect } from 'react';
-import type { UserProfile, MealPlan, ActiveFeature } from './types';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import UserProfileForm from './components/UserProfileForm';
-import MealPlanner from './components/MealPlanner';
-import RecipeGenerator from './components/RecipeGenerator';
-import CalorieVision from './components/CalorieVision';
-import AICoach from './components/AICoach';
-import ShoppingList from './components/ShoppingList';
-import Dashboard from './components/Dashboard';
-import { generateMealPlan } from './services/geminiService';
-import AdBanner from './components/AdBanner';
+import type { UserProfile, MealPlan, ActiveFeature } from './types.ts';
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
+import UserProfileForm from './components/UserProfileForm.tsx';
+import MealPlanner from './components/MealPlanner.tsx';
+import RecipeGenerator from './components/RecipeGenerator.tsx';
+import CalorieVision from './components/CalorieVision.tsx';
+import AICoach from './components/AICoach.tsx';
+import ShoppingList from './components/ShoppingList.tsx';
+import Dashboard from './components/Dashboard.tsx';
+import { generateMealPlan } from './services/geminiService.ts';
+import AdBanner from './components/AdBanner.tsx';
 
 type AppView = 'profile' | 'dashboard';
 
