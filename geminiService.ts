@@ -1,6 +1,5 @@
-
 import { GoogleGenAI, Type, GenerateContentResponse, Chat } from "@google/genai";
-import type { UserProfile, CalorieEstimation, Recipe, MealPlan } from "../types";
+import type { UserProfile, CalorieEstimation, Recipe, MealPlan } from "../types.ts";
 
 // Always use new GoogleGenAI({apiKey: process.env.API_KEY});
 // API key must be obtained exclusively from process.env.API_KEY
