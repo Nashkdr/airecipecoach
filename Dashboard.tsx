@@ -1,7 +1,6 @@
-
 import React from 'react';
-import type { UserProfile, ActiveFeature } from '../types';
-import { ICONS } from '../constants';
+import type { UserProfile, ActiveFeature } from '../types.ts';
+import { ICONS } from '../constants.tsx';
 
 interface DashboardProps {
     userProfile: UserProfile;
