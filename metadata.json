@@ -1,0 +1,8 @@
+
+{
+  "name": "AI Recipe & Diet Coach",
+  "description": "An AI-powered app that generates personalized meal plans, recipes, and shopping lists based on your diet goals and available ingredients.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Professional Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>AI Recipe & Diet Coach</title>
+    <meta name="description" content="Get personalized meal plans, healthy recipes, and smart shopping lists with your AI-powered nutrition coach. Achieve your diet goals with ease." />
+    <meta name="keywords" content="AI recipe generator, diet coach, meal planner, nutrition tracker, healthy eating, weight loss, muscle gain, personalized diet" />
+
+    <!-- Open Graph / Facebook / Social Media Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AI Recipe & Diet Coach" />
+    <meta property="og:description" content="Get personalized meal plans, healthy recipes, and smart shopping lists with your AI-powered nutrition coach." />
+    <!-- TODO: After deploying, create a preview image (e.g., 1200x630px), upload it, and replace this URL -->
+    <meta property="og:image" content="https://example.com/social-preview.png" /> 
+    <!-- TODO: After deploying, replace this with your public Vercel URL (e.g., https://ai-recipe-coach.vercel.app) -->
+    <meta property="og:url" content="https://your-domain.com" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                DEFAULT: '#10B981',
+                '50': '#ECFDF5',
+                '100': '#D1FAE5',
+                '200': '#A7F3D0',
+                '300': '#6EE7B7',
+                '400': '#34D399',
+                '500': '#10B981',
+                '600': '#059669',
+                '700': '#047857',
+                '800': '#065F46',
+                '900': '#064E3B',
+              },
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Google AdSense script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+     crossorigin="anonymous"></script>
+
+    <!-- Google Analytics (Optional) - Replace with your tracking code -->
+    <!-- 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_GA_ID');
+      </script>
+    -->
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0",
+    "vite": "https://aistudiocdn.com/vite@^7.1.5",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
