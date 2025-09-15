@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
-import { generateRecipe } from '../services/geminiService';
-import type { Recipe, UserProfile } from '../types';
-import LoadingSpinner from './LoadingSpinner';
-import RecipeCard from './RecipeCard';
+import { generateRecipe } from '../services/geminiService.ts';
+import type { Recipe, UserProfile } from '../types.ts';
+import LoadingSpinner from './LoadingSpinner.tsx';
+import RecipeCard from './RecipeCard.tsx';
 
 interface RecipeGeneratorProps {
     userProfile: UserProfile | null;
