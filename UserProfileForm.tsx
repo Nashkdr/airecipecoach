@@ -1,9 +1,7 @@
-
-
 import React, { useState } from 'react';
-import type { UserProfile } from '../types';
-import { DietGoal } from '../types';
-import { DIET_GOALS_OPTIONS } from '../constants';
+import type { UserProfile } from '../types.ts';
+import { DietGoal } from '../types.ts';
+import { DIET_GOALS_OPTIONS } from '../constants.tsx';
 
 interface UserProfileFormProps {
     onSave: (profile: UserProfile) => void;
