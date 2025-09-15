@@ -1,10 +1,8 @@
-
-
 import React, { useState, useRef } from 'react';
-import { estimateCaloriesFromImage } from '../services/geminiService';
-import type { CalorieEstimation } from '../types';
-import LoadingSpinner from './LoadingSpinner';
-import { ICONS } from '../constants';
+import { estimateCaloriesFromImage } from '../services/geminiService.ts';
+import type { CalorieEstimation } from '../types.ts';
+import LoadingSpinner from './LoadingSpinner.tsx';
+import { ICONS } from '../constants.tsx';
 
 const CalorieVision: React.FC = () => {
     const [imagePreview, setImagePreview] = useState<string | null>(null);
